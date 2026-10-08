@@ -6,7 +6,7 @@
 <?php
 $nom = "El ";
 $prenom = "Khadija";
-$age = 26;
+$age = 27;
 $formation = "Licence Informatique";
 $presentation = "Je m'appelle " . $prenom . " " . $nom .
     ", j'ai " . $age . " ans et je suis en " . $formation . ".";

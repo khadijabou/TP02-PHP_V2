@@ -13,9 +13,11 @@ $vide = null;
 echo "<h2>Types initiaux</h2><pre>";
 var_dump($entier, $chaine, $decimal, $vrai, $faux, $vide);
 echo "</pre>";
+
 echo "<h2>Conversions</h2><pre>";
 var_dump((int) $chaine, (int) $decimal, (string) $entier);
 echo "</pre>";
+
 echo "<h2>Affichage des booléens</h2>";
 echo "<p>echo true : [";
 echo $vrai;
@@ -24,6 +26,7 @@ echo $faux;
 echo "]</p><pre>";
 var_dump($vrai, $faux);
 echo "</pre>";
+
 echo "<h2>Conversions en booléens : 0, chaîne 0, PHP, tableau vide</h2><pre>";
 var_dump((bool) 0, (bool) "0", (bool) "PHP", (bool) []);
 echo "</pre>";
